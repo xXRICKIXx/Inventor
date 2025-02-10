@@ -108,3 +108,56 @@ for (let h = 0; h <= 10; h++) {
         console.log(h);
     }
 }
+
+
+
+let p
+for (p = 1; p < 10; p++) {
+    console.log(p)
+}
+
+
+let l
+for (l = 15; l >= 1; l--) {
+    console.log(l)
+}
+
+let o
+for (o = 4; 0 < 9; o = o + 2) {
+    console.log(o)
+}
+
+let u
+for (u = 15; u > -1; i - 3) {
+    console.log(u)
+}
+
+x = 10 % 3
+
+x = 45 % 42
+
+x = 0 % 0
+
+x = 3 % 0
+
+x = 0 % 3
+
+X = 16 % 4
+
+for (let i = 1; i < 30; i++) {
+    if (i % 4 == 0) {
+        console.log("pim");
+    } else {
+        console.log(i);
+    }
+}
+
+for (let i = 1; i < 30; i++) {
+    if (i % 4 == 0) {
+        txt = txt + "pim"
+    } else {
+        txt = txt + i + ""
+    }
+
+}
+console.log(txt);
