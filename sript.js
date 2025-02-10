@@ -161,3 +161,22 @@ for (let i = 1; i < 30; i++) {
 
 }
 console.log(txt);
+
+
+
+let eleme = document.getElementById("botão")
+eleme.addEventListener("click", jogodopim)
+function jogodopim() {
+    let elem = document.getElementById("caixa")
+    let qtde = parseInt(elem.value)
+    let texto = ""
+    for (let i = 1; i < 30; i++) {
+        if (i % 4 == 0) {
+            txt = txt + "pim"
+        } else {
+            txt = txt + i + ""
+        }
+
+    }
+    console.log(txt);
+}
